@@ -14,10 +14,6 @@ pluginTester({
       import files from './macro';
       const allFiles = files('./fixtures/images');
     `,
-    "no files": `
-      import files from './macro';
-      const allFiles = files('./fixtures/noFiles');
-    `,
     "no folder found": `
       import files from './macro';
       const allFiles = files('./fixtures/noFolder');

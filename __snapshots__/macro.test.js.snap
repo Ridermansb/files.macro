@@ -11,17 +11,6 @@ const allFiles = \\"[ \\\\\\"calendar.jpg\\\\\\",\\\\\\"coins.jpg\\\\\\",\\\\\\"
 "
 `;
 
-exports[`macros no files: no files 1`] = `
-"
-import files from './macro';
-const allFiles = files('./fixtures/noFiles');
-
-      ↓ ↓ ↓ ↓ ↓ ↓
-
-const allFiles = \\"[  ]\\";
-"
-`;
-
 exports[`macros no folder found: no folder found 1`] = `
 "
 import files from './macro';
