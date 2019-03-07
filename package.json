@@ -1,6 +1,6 @@
 {
   "name": "files.macro",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Read files name from folder at build time",
   "main": "dist/files.macro.js",
   "scripts": {
