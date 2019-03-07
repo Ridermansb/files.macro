@@ -13,7 +13,11 @@ import files from "files.macro";
 
 const allImages = files("./assets/images");
 
-allImages // [ 'avatar.png', 'catalog.png' ] 
+// Will transpiled to
+
+//    ↓ ↓ ↓ ↓ ↓ ↓
+
+const allImages = [ 'avatar.png', 'catalog.png' ] 
 ```
 
 
