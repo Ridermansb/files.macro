@@ -1,0 +1,42 @@
+{
+  "name": "files.macro",
+  "version": "0.1.0",
+  "description": "Read files name from folder at build time",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "microbundle -i index.js -o dist",
+    "dev": "microbundle watch",
+    "ci": "npm run test -- --ci && npm run build"
+  },
+  "author": "ridermansb",
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "files-loader",
+    "files",
+    "string",
+    "babel",
+    "babel-macros",
+    "babel-plugin-macros"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridermansb/files.macro.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-plugin-macros": "^2.5.0",
+    "babel-plugin-tester": "^6.0.0",
+    "jest": "^24.1.0",
+    "microbundle": "^0.11.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "jest": {
+    "testRegex": ".*.test.js$"
+  }
+}

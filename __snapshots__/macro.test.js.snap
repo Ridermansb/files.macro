@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`macros correct usage: correct usage 1`] = `
+"
+import files from './macro';
+const allFiles = files('./fixtures/images');
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const allFiles = \\"[ \\\\\\"calendar.jpg\\\\\\",\\\\\\"coins.jpg\\\\\\",\\\\\\"login.jpg\\\\\\",\\\\\\"menu.jpg\\\\\\",\\\\\\"passengers.jpg\\\\\\",\\\\\\"pin.jpg\\\\\\",\\\\\\"questions.jpg\\\\\\",\\\\\\"search.png\\\\\\",\\\\\\"ticket.jpg\\\\\\" ]\\";
+"
+`;
+
+exports[`macros no files: no files 1`] = `
+"
+import files from './macro';
+const allFiles = files('./fixtures/noFiles');
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const allFiles = \\"[  ]\\";
+"
+`;
+
+exports[`macros no folder found: no folder found 1`] = `
+"
+import files from './macro';
+const allFiles = files('./fixtures/noFolder');
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+const allFiles = \\"[]\\";
+"
+`;
+
+exports[`macros no usage: no usage 1`] = `
+"
+import files from './macro'
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+
+"
+`;
