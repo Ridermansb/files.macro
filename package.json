@@ -1,16 +1,19 @@
 {
   "name": "files.macro",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Read files name from folder at build time",
-  "main": "index.js",
+  "main": "dist/files.macro.js",
   "scripts": {
     "test": "jest",
-    "build": "microbundle -i index.js -o dist",
+    "build": "microbundle -i index.js -o dist --name files",
     "dev": "microbundle watch",
     "ci": "npm run test -- --ci && npm run build"
   },
   "author": "ridermansb",
   "license": "MIT",
+  "files": [
+    "dist/"
+  ],
   "keywords": [
     "webpack",
     "files-loader",
