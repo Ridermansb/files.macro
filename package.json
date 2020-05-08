@@ -35,7 +35,7 @@
     "babel-plugin-macros": "^2.5.0",
     "babel-plugin-tester": "^7.0.0",
     "jest": "^24.1.0",
-    "microbundle": "^0.11.0"
+    "microbundle": "^0.12.0"
   },
   "engines": {
     "node": ">=8.9.0"
