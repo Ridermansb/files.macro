@@ -30,7 +30,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.3.4",
+    "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.3.4",
     "babel-plugin-macros": "^2.5.0",
     "babel-plugin-tester": "^7.0.0",
